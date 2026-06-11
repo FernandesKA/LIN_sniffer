@@ -1,8 +1,0 @@
-LIN_Driver.pbi: \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc\stm8s.h \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc\stm8s_gpio.h \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc\stm8s_clk.h \
-  C:\dev\MCU\STM8\LIN_Converter\inc\stm8s_conf.h \
-  C:\dev\MCU\STM8\LIN_Converter\inc\Lin_Driver.h \
-  C:\dev\MCU\STM8\LIN_Converter\src\LIN_Driver.c

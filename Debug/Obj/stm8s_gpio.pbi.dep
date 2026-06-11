@@ -1,8 +1,0 @@
-stm8s_gpio.pbi: C:\PRJ\LIN_adapter\LIN_converter\lib\SPL\src\stm8s_gpio.c \
-  C:\PRJ\LIN_adapter\LIN_converter\lib\SPL\inc\stm8s_gpio.h \
-  C:\PRJ\LIN_adapter\LIN_converter\lib\SPL\inc/stm8s.h \
-  C:\PRJ\LIN_adapter\LIN_converter\inc\stm8s_conf.h \
-  C:\PRJ\LIN_adapter\LIN_converter\lib\SPL\inc\stm8s.h \
-  C:\PRJ\LIN_adapter\LIN_converter\lib\SPL\inc\stm8s_clk.h \
-  C:\PRJ\LIN_adapter\LIN_converter\lib\SPL\inc\stm8s_uart1.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

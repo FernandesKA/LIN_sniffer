@@ -1,9 +1,0 @@
-stm8s_tim1.pbi: C:\dev\MCU\STM8\LIN_Converter\lib\SPL\src\stm8s_tim1.c \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc\stm8s_tim1.h \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc/stm8s.h \
-  C:\dev\MCU\STM8\LIN_Converter\inc\stm8s_conf.h \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc\stm8s.h \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc\stm8s_clk.h \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc\stm8s_gpio.h \
-  C:\dev\MCU\STM8\LIN_Converter\lib\SPL\inc\stm8s_uart1.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h
