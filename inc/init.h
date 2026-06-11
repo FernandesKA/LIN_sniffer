@@ -29,7 +29,5 @@ void GetIndicate(void);
 //User variables
 extern uint16_t BAUD_LIN;
 extern uint32_t BAUD_ADDR;
-extern bool isCompleted;
-extern bool isValidCRC;
 void CRC8(uint8_t *CRC, uint8_t data, bool isEnd);
 #endif

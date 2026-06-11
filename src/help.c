@@ -8,9 +8,6 @@ void PrintHelp(void){
 void print(char* pText, uint8_t size){
   for(uint8_t i = 0; i < size; ++i){
     while(test_status(transmit_data_reg_empty) != transmit_data_reg_empty) {asm("nop");}
-      if (test_status(transmit_data_reg_empty) == transmit_data_reg_empty)
-      {
-        uart_send(pText[i]);
-      }
+    uart_send(pText[i]);
   }
 }

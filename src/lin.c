@@ -3,7 +3,6 @@
 #include "lin.h"
 #include "uart.h"
 #include "init.h"
-#define EXTI_PORTD_IRQ
 /******************************************************************************/
 //User variables
 uint16_t u16BreakLength;

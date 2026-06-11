@@ -20,7 +20,7 @@ uint8_t u8RxSize, u8TxSize;
 uint8_t u8RxData[RxBufSize];
 uint8_t u8TxData[TxBufSize];
 bool bTransmitted = false;
-//bool bReceived = false;
+bool bReceived = false;
 
 //UART initializations
 void UART_Init(void)
@@ -187,11 +187,11 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
 //This function return sum for CRC
 static inline void GetSum(uint8_t* cSum, uint8_t* nData){
   if(*cSum + *nData > 0xFF){
-    ++cSum;
-    *cSum += *nData; 
+    ++(*cSum);
+    *cSum += *nData;
   }
   else{
-    *cSum += *nData; 
+    *cSum += *nData;
   }
 }
 //This function calculate CRC

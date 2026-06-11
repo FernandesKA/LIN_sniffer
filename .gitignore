@@ -1,0 +1,19 @@
+# Build artifacts
+Debug/
+Release/
+
+# IAR backup files
+Backup of *
+
+# Dependency files
+*.dep
+
+# IAR user-specific settings
+settings/*.dbgdt
+settings/*.cspy.bat
+settings/*.cspy.ps1
+settings/*.driver.xcl
+settings/*.general.xcl
+settings/*.dnx
+settings/*.reggroups
+settings/*.wsdt

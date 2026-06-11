@@ -32,7 +32,6 @@ struct LIN_SEND{
   LIN_MODE Mode;
 };
 //Structure declaration
-extern bool SendLIN;
 extern struct LIN_SEND LIN_Send;
 //FSM for frame header
 enum LIN_HEADER
@@ -61,7 +60,6 @@ extern struct LIN_Header header;
 extern struct LIN_Response response;
 extern enum LIN_Size Lin_size;
 extern uint8_t countReceived;
-extern FIFO sw_transmit;
 extern LIN_HEADER currentHeader;
 extern uint16_t u16BreakLength;
 /******************************************************************************/

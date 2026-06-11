@@ -302,10 +302,8 @@
                 "__weak="
             ],
             "includePath": [
-                "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc",
-                "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c",
-                "c:\\dev\\MCU\\STM8\\LIN_Converter\\inc",
-                "c:\\dev\\MCU\\STM8\\LIN_Converter\\lib\\SPL\\inc"
+                "${workspaceFolder}/inc",
+                "${workspaceFolder}/lib/SPL/inc"
             ],
             "forcedInclude": [],
             "cStandard": "c11",

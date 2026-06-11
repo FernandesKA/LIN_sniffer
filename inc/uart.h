@@ -9,7 +9,6 @@
 //Defines
 #define TxBufSize 8U
 #define RxBufSize 8U
-#define bool _Bool
 //Users functions
 void UART_Init(void);
 bool UART_Receive_IT(uint8_t *u8Buf, uint8_t u8Size);
